@@ -125,7 +125,7 @@ const Project = ({ heading, username, length, specfic }) => {
                 </div>
               </div>
               <div class="project-window__content project-link-tinyapp">
-                <img class="project-screenshot" src="./public/images/tiny-app-pic.png" alt="tiny-app"></img>
+                <img class="project-screenshot" src="https://github.com/kvnchu2/home/blob/master/public/jungle-rails.jpeg?raw=true" alt="jungle-rails"></img>
                 <div class="project-window__hover">
                   <i class="fas fa-external-link-alt fa-2x" aria-hidden="true"></i>
                   <span>View GitHub Repo</span>
@@ -152,7 +152,7 @@ const Project = ({ heading, username, length, specfic }) => {
                 </div>
               </div>
               <div class="project-window__content project-link-scheduler">
-                <img class="project-screenshot" src="./public/images/scheduler-app-pic.png" alt="scheduler-app"></img>
+                <img class="project-screenshot" src="https://github.com/kvnchu2/home/blob/master/public/scheduler.jpg?raw=true" alt="scheduler-app"></img>
                 <div class="project-window__hover">
                   <i class="fas fa-external-link-alt fa-2x" aria-hidden="true"></i>
                   <span>View GitHub Repo</span>
@@ -179,7 +179,7 @@ const Project = ({ heading, username, length, specfic }) => {
                 </div>
               </div>
               <div class="project-window__content project-link-amazon">
-                <img class="project-screenshot" src="./public/images/amazon-app-pic.png" alt="amazon-app"></img>
+                <img class="project-screenshot" src="https://github.com/kvnchu2/home/blob/master/public/tinyapp.jpeg?raw=true" alt="tinyapp"></img>
                 <div class="project-window__hover">
                   <i class="fas fa-external-link-alt fa-2x" aria-hidden="true"></i>
                   <span>View GitHub Repo</span>
@@ -204,7 +204,7 @@ const Project = ({ heading, username, length, specfic }) => {
                 </div>
               </div>
               <div class="project-window__content project-link-tweeter">
-                <img class="project-screenshot" src="./public/images/tweeter-app-pic.png" alt="tweeter-app"></img>
+                <img class="project-screenshot" src="https://github.com/kvnchu2/home/blob/master/public/tweeter.png?raw=true" alt="tweeter-app"></img>
                 <div class="project-window__hover">
                   <i class="fas fa-external-link-alt fa-2x" aria-hidden="true"></i>
                   <span>View GitHub Repo</span>
