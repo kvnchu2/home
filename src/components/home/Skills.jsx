@@ -19,7 +19,23 @@ function Skills({ heading, hardSkills, softSkills }) {
     skillsTabRef
   );
   return (
-    <img src=""></img>
+    <Jumbotron ref={skillsTabRef} fluid className="bg-white m-0" id="skills">
+      <Container className="p-5 ">
+        <h2 ref={skillsTabRef} className="display-4 pb-5 text-center">
+          {heading}
+        </h2>
+        <div class="skills-icons">
+          <img src="https://github.com/kvnchu2/home/blob/master/public/html.png?raw=true" alt="html"></img>
+          <img src="https://github.com/kvnchu2/home/blob/master/public/css.png?raw=true" alt="css"></img>
+          <img src="https://github.com/kvnchu2/home/blob/master/public/javascript.png?raw=true" alt="javascript"></img>
+          <img src="https://github.com/kvnchu2/home/blob/master/public/mongoDB.png?raw=true" alt="mongoDB"></img>
+          <img src="https://github.com/kvnchu2/home/blob/master/public/psql.jpg?raw=true" alt="psql"></img>
+          <img src="https://github.com/kvnchu2/home/blob/master/public/rails.png?raw=true" alt="rails"></img>
+          <img src="https://github.com/kvnchu2/home/blob/master/public/ruby.png?raw=true" alt="ruby"></img>
+          <img src="https://github.com/kvnchu2/home/blob/master/public/sass.png?raw=true" alt="sass"></img>
+        </div>
+      </Container>
+    </Jumbotron>
   );
 }
 

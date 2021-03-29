@@ -129,3 +129,168 @@ code {
     animation: progress 1.5s ease-in-out forwards;
   }
 }
+
+// skills section
+
+.p-5 {
+  .skills-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  img {
+    width: 5em;
+    height: auto;
+    padding-right: 20px;
+  }
+}
+
+// projects section
+
+#projects {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  font-family: 'Roboto Slab', serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.each-project-top-container {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  font-family: 'Roboto Slab', serif;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  width: 90%;
+}
+
+.project-window {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  font-family: 'Roboto Slab', serif;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 3px solid #e0e0e0;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  margin: 1rem;
+  margin-bottom: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 14rem;
+}
+
+.top-row {    
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  font-family: 'Roboto Slab', serif;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.2rem;
+  background: #e0e0e0
+}
+
+.top-row__circles {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  font-family: 'Roboto Slab', serif;
+  margin: 0.2rem;
+}
+
+.fas fa-circle fa-sm {
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  font-size: .875em;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #ED594A;
+}
+
+.top-row__search {
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  font-size: .875em;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #ED594A;
+}
+
+.top-row__menu {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  font-family: 'Roboto Slab', serif;
+  margin: 0.2rem;
+  i {
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: fixed;
+    cursor: pointer;
+    top: 1.5rem;
+    right: 1rem;
+  }
+}
+
+.project-window__hover {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  font-family: 'Roboto Slab', serif;
+  transition: .4s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  i {
+    -webkit-text-size-adjust: 100%;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-size: 2em;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+  }
+  span {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+  }
+}
+
+.project-description {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  width: 90%;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}

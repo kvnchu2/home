@@ -58,8 +58,8 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 0,
+  gitHubUsername: "kvnchu2", //i.e."johnDoe12Gh"
+  reposLength: 4,
   specificRepos: [],
 };
 
