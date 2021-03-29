@@ -75,7 +75,7 @@ const Project = ({ heading, username, length, specfic }) => {
                 </div>
               </div>
               <div class="project-window__content project-link-typecraft">
-                <img class="project-screenshot" src="../../../public/typecraft-home.png" alt="typecraft"></img>
+                <img class="project-screenshot" src="https://github.com/kvnchu2/home/blob/master/public/gitgood.jpeg?raw=true" alt="gitgood"></img>
                 <div class="project-window__hover">
                   <i class="fas fa-external-link-alt fa-2x" aria-hidden="true"></i>
                   <span>View GitHub Repo</span>
@@ -100,7 +100,7 @@ const Project = ({ heading, username, length, specfic }) => {
                 </div>
               </div>
               <div class="project-window__content project-link-jungle">
-                <img class="project-screenshot" src="../../public/jungle-rails.png" alt="jungle-rails"></img>
+                <img class="project-screenshot" src="https://github.com/kvnchu2/home/blob/master/public/homepage.png?raw=true" alt="kigogo"></img>
                 <div class="project-window__hover">
                   <i class="fas fa-external-link-alt fa-2x" aria-hidden="true"></i>
                   <span>View GitHub Repo</span>
