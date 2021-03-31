@@ -36,6 +36,12 @@ const MainBody = React.forwardRef(
                 <i className={`${icon.image}  fa-3x socialicons`} />
               </a>
             ))}
+            <a
+                href="#getintouch"
+                aria-label={`My envelope`}
+            >
+                <i className={`fas fa-envelope  fa-3x socialicons`} />
+            </a>
           </div>
           <a
             className="btn btn-outline-light btn-lg "

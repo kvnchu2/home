@@ -19,10 +19,6 @@ const mainBody = {
       image: "fab fa-linkedin",
       url: "https://www.linkedin.com/in/kevin-chu2/",
     },
-    {
-      image: "fas fa-envelope",
-      url: "#getintouch"
-    }
   ],
 };
 
