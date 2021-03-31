@@ -21,7 +21,7 @@ const mainBody = {
     },
     {
       image: "fas fa-envelope",
-      url: ""
+      url: "#getintouch"
     }
   ],
 };
